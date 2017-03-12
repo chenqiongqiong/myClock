@@ -1,0 +1,21 @@
+{
+	"manifest_version":2,
+	"name":"my clock",
+	"version":"1.0",
+	"description":"my first chrome",
+	"icons":{
+
+		"16":"images/001.png",
+		"48":"images/001.png",
+		"128":"images/001.png"
+	},
+	"browser_action":{
+		"default_icon":{
+			"19":"images/001.png",
+			"38":"images/001.png"	
+		},
+		"default_title":"clock",
+		"default_popup":"popup.html"
+	}	
+
+}
